@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dishant Desle - Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <!-- AOS Library -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">Dishant Desle</div>
+            <div class="menu-icon" onclick="toggleMenu()">&#9776;</div>
+            <ul id="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#certifications">Certifications</a></li>
+                <li><a href="#resume">Resume</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="home" class="section" data-aos="fade-in">
+            <div class="hero-container">
+                <div class="hero-text">
+                    <h1>Welcome to My Portfolio</h1>
+                    <p>Explore my work and projects.</p>
+                    <a href="#portfolio" class="btn hero-btn">View My Work</a>
+                    <div class="hero-icons">
+                        <a href="https://www.linkedin.com/in/dishant-desle-253437226/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                        <a href="https://github.com/desledishant10" target="_blank"><i class="fab fa-github"></i></a>
+                        <a href="https://leetcode.com/u/desledishant10/" target="_blank" class="leetcode-icon">
+                            <img src="https://upload.wikimedia.org/wikipedia/commons/1/19/LeetCode_logo_black.png" alt="LeetCode" />
+                        </a>
+                    </div>
+                </div>
+                <div class="hero-image">
+                    <img src="assets/img.jpg" alt="Dishant Desle">
+                </div>
+            </div>
+        </section>
+        <section id="about" class="section" data-aos="fade-up">
+            <h2>About Me</h2>
+            <p>Hello! I’m Dishant Desle, a passionate software developer with a keen interest in creating innovative solutions. I have a solid foundation in computer science, and I enjoy tackling complex problems and developing high-quality software. My skills include C++, SQL, C, Python, Java, JavaScript, React, HTML, Arduino, CSS, Linux, and more. I am also actively involved in research and have received recognition for my work. Take a look at my projects and feel free to reach out!</p>
+        </section>
+        <section id="portfolio" class="section" data-aos="fade-up">
+            <h2>Portfolio</h2>
+            <div id="projects" class="project-container">
+                <div class="project">
+                    <img src="assets/proj1.png" alt="Project 1 Thumbnail">
+                    <div class="project-info">
+                        <h3>AudioClip Player</h3>
+                        <p>The AudioClip Player is an Android application designed to manage and play audio clips efficiently. 
+                            Developed using Java and XML within Android Studio, this app offers a seamless user experience for 
+                            playing, pausing, resuming, and stopping audio clips.</p>
+                        <p><strong>Technologies:</strong> Java, XML, Android Studio</p>
+                        <p><strong>Date:</strong> February 2024</p>
+                        <a href="https://github.com/desledishant10/CS478/tree/main/AudioClipPlayer" target="_blank" class="btn">Source Code</a>
+                    </div>
+                </div>
+                <div class="project">
+                    <img src="assets/proj2.png" alt="Project 2 Thumbnail">
+                    <div class="project-info">
+                        <h3>Natural Language Processor</h3>
+                        <p>The Natural Language Processing (NLP) project focuses on developing a system to automatically 
+                            score essays based on various linguistic properties. Using Python along with powerful NLP 
+                            libraries such as SpaCy and NLTK, this project demonstrates the application of advanced natural 
+                            language processing techniques.</p>
+                        <p><strong>Technologies:</strong> Python, SpaCy, NLTK</p>
+                        <p><strong>Date:</strong> March 2024</p>
+                        <a href="https://github.com/desledishant10/CS421/tree/main/Natural%20Language%20Processing" target="_blank" class="btn">Source Code</a>
+                    </div>
+                </div>
+                <div class="project">
+                    <img src="assets/proj3.png" alt="Project 3 Thumbnail">
+                    <div class="project-info">
+                        <h3>Big Data and Google Cloud</h3>
+                        <p>The Big Data and Google Cloud project leverages the power of Google Cloud's suite of tools 
+                            to analyze and visualize large datasets. Developed using SQL, Python, and Google Cloud technologies, 
+                            this project showcases advanced data management, processing, and visualization capabilities.</p>
+                        <p><strong>Technologies:</strong> SQL, Python, Google Cloud, Google Looker Studio</p>
+                        <p><strong>Date:</strong> April 2024</p>
+                        <a href="https://github.com/desledishant10/CS418/tree/main/hw4" target="_blank" class="btn">Source Code</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="certifications" class="section" data-aos="fade-up">
+            <h2>Certifications</h2>
+            <div class="certification">
+                <div class="certification-info">
+                    <h3>Intro to Cyber Security</h3>
+                    <p>Issued by: Try Hack Me</p>
+                    <p>Date: June 2024</p>
+                    <a href="https://tryhackme-certificates.s3-eu-west-1.amazonaws.com/THM-ECEQPVHQLW.png" target="_blank" class="btn">View Certificate</a>
+                </div>
+                <div class="certification-image">
+                    <img src="assets/cert1.png" alt="Certificate 1">
+                </div>
+            </div>
+            <div class="certification">
+                <div class="certification-info">
+                    <h3>Human Research</h3>
+                    <p>Issued by: CITI PROGRAM</p>
+                    <p>Date: Jan 2023</p>
+                    <a href="https://www.citiprogram.org/verify/?w0d7e311c-d18d-40b9-a61d-9794ab6163a3-53458898" target="_blank" class="btn">View Certificate</a>
+                </div>
+                <div class="certification-image">
+                    <img src="assets/cert2.png" alt="Certificate 2">
+                </div>
+            </div>
+            <div class="certification">
+                <div class="certification-info">
+                    <h3>Information Privacy and Security</h3>
+                    <p>Issued by: CITI PROGRAM</p>
+                    <p>Date: Jan 2023</p>
+                    <a href="https://www.citiprogram.org/verify/?wed6394d6-023f-4a74-8c7f-177097e5bb8b-53458899" target="_blank" class="btn">View Certificate</a>
+                </div>
+                <div class="certification-image">
+                    <img src="assets/cert3.png" alt="Certificate 3">
+                </div>
+            </div>
+            <div class="certification">
+                <div class="certification-info">
+                    <h3>Lifeguarding, CPR/AED, Professional Rescuers and First Aid</h3>
+                    <p>Issued by: Red Cross </p>
+                    <p>Date: Sep 2023</p>
+                    <a href="https://www.redcross.org/take-a-class/qrcode?certnumber=01AO2CL&selectedCerts=id-01AO2CL%2C&size=wallet" target="_blank" class="btn">View Certificate</a>
+                </div>
+                <div class="certification-image">
+                    <img src="assets/cert4.png" alt="Certificate 4">
+                </div>
+            </div>
+        </section>
+        <section id="resume" class="section" data-aos="fade-up">
+            <h2>Resume</h2>
+            <embed src="assets/resume.pdf" type="application/pdf" width="100%" height="600px">
+            <p><a href="assets/resume.pdf" download class="btn">Download Resume</a></p>
+        </section>
+        <section id="contact" class="section" data-aos="fade-up">
+            <h2>Contact Me</h2>
+            <form id="contact-form" action="send_email.php" method="POST">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+                <button type="submit">Send</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>© 2024 Dishant Desle | 
+            <a href="https://www.linkedin.com/in/dishant-desle-253437226/" target="_blank"><i class="fab fa-linkedin"></i></a> 
+            <a href="https://github.com/desledishant10" target="_blank"><i class="fab fa-github"></i></a>
+            <a href="https://leetcode.com/u/desledishant10/" target="_blank" class="leetcode-icon">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/1/19/LeetCode_logo_black.png" alt="LeetCode" />
+            </a>
+        </p>
+    </footer>
+    <!-- AOS Library -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
