@@ -69,8 +69,3 @@ Feel free to reach out to me via the contact form on my portfolio or through the
 
 Thank you for visiting my portfolio!
 
-### Notes:
-- Replace `https://github.com/desledishant10/dishantportfolio.github.io.git` and `desledishant10` with actual details where applicable if there are any additional changes.
-- Ensure all images and assets are correctly named and placed in the respective `assets/` directory for the file structure to be accurate. 
-
-This `README.md` file provides a comprehensive guide to understanding, installing, and using your portfolio project, and includes links to your live portfolio and contact information.
